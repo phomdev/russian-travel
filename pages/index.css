@@ -1,0 +1,27 @@
+/* Основные настройки */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+/* Стили шапки */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+/* Стили контента */
+@import url(../blocks/content/content.css);
+/* Стили секции lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__images/lead__images.css);
+@import url(../blocks/lead/__label/lead__label.css);
+/* Стили секции intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__description/intro__description.css);
+@import url(../blocks/intro/__stat/intro__stat.css);
+@import url(../blocks/intro/__stat-data/intro__stat-data.css);
+/* Стили секции photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);

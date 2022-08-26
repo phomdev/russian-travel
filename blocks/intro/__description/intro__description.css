@@ -1,0 +1,15 @@
+.intro__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  padding: 0;
+  margin: 0 0 33px 0;
+}
+/* Размеры на меньшем расширении (mobile)  */
+@media screen and (max-width: 767px) {
+  .intro__description {
+    max-width: 100%;
+    margin: 0 0 34px 0;
+  }
+}

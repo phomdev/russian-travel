@@ -1,0 +1,10 @@
+.lead__images {
+  width: 100%;
+  margin-bottom: 8px;
+}
+/* Размер на меньшем расширении (mobile) */
+@media screen and (max-width: 928px) {
+  .lead__images {
+    width: 100vw;
+  }
+}
