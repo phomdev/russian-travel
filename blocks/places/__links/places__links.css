@@ -1,0 +1,9 @@
+.places__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  row-gap: 12px;
+}
