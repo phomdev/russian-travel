@@ -1,8 +1,6 @@
 .footer__item {
   color: #FFF;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
 }
@@ -14,7 +12,6 @@
 /* Стили на меньшем расширении (mobile) */
 @media screen and (max-width: 692px) {
   .footer__item {
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
   }

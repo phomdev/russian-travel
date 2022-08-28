@@ -1,9 +1,8 @@
 .intro__description {
-  font-style: normal;
   max-width: 690px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 163%;
   padding: 0;
   margin: 0 0 33px 0;
 }
