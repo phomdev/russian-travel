@@ -1,0 +1,14 @@
+.footer__author {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* Стили на меньшем расширении (mobile) */
+@media screen and (max-width: 692px) {
+  .footer__author {
+    line-height: 14px;
+  }
+}

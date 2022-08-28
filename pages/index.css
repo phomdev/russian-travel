@@ -35,3 +35,14 @@
 @import url(../blocks/places/__images/places__images.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
+/* Стили секции cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__item/cover__item.css);
+/* Стили блока footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__items/footer__items.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__author/footer__author.css);

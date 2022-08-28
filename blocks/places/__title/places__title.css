@@ -7,14 +7,14 @@
   line-height: 76px;
   width: 100%;
 }
-
+/* Стили на меньшем расширении */
 @media screen and (max-width: 1023px) {
   .places__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
-
+/* Стили на меньшем расширении (mobile) */
 @media screen and (max-width: 767px) {
   .places__title {
     font-size: 32px;

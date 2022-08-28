@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1184px;
+  width: 100%;
+}
+/* Стили на меньшем расширении (mobile) */
+@media screen and (max-width: 692px) {
+  .footer {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,10 +1,14 @@
 .places__article {
   display: grid;
   /* Построение сетки с учётом минимальной и максимальной ширины расширений, без учёта mobile, т.к там ширина 100% */
+  /* 460 - максимальная ширина изображения, 340 - минимальная, аналогично с текстовой фракцией  */
   grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / minmax(340px, 460px) minmax(352px, 484px);
   gap: 48px 40px;
   padding: 0;
   margin: 0 0 80px 0;
+}
+.places__article:last-child {
+  margin: 0;
 }
 /* Построение отступов сетки на ином расширении */
 @media screen and (max-width: 1279px) {

@@ -1,11 +1,13 @@
  .places__images {
    width: 100%;
+   object-fit: cover;
+   margin: 0;
  }
-
+ /* Стили на меньшем расширении (mobile) */
  @media screen and (max-width: 767px) {
    .places__images {
      box-sizing: border-box;
-     margin-left: -16px;
-     width: calc(100% + 32px);
+     transform: translateX(-1rem);
+     width: 100vw;
    }
  }

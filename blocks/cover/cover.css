@@ -1,0 +1,21 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 92px 0;
+  width: 100%;
+}
+/* Стили на меньшем расширении */
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin: 0 0 88px 0;
+  }
+}
+/* Стили на меньшем расширении (mobile) */
+@media screen and (max-width: 748px) {
+  .cover {
+    margin: 0 0 64px 0;
+  }
+}

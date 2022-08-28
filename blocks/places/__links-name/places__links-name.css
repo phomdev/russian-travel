@@ -4,7 +4,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 170%;
   letter-spacing: 2px;
   color: #AAA;
+}
+/* Стили на меньшем расширении */
+@media screen and (max-width: 1279px) {
+  .places__links-name {
+    line-height: 12px;
+  }
 }

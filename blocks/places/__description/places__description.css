@@ -5,8 +5,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  width: 100%;
 }
+/* Стили на меньшем расширении */
 @media screen and (max-width: 1023px) {
   .places__description {
     font-weight: 400;

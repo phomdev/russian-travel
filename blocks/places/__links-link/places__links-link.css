@@ -9,3 +9,8 @@
   color: #FFF;
   border-bottom: 1px solid #FFF;
 }
+
+.places__links-link:hover {
+  opacity: .6;
+  transition: opacity .4s ease-in-out;
+}

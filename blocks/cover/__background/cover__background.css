@@ -1,0 +1,19 @@
+.cover__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  /* 100% ширины блока content + по 100px отступов с каждой стороны по макету */
+  width: calc(100% + (100px + 100px));
+  height: 740px;
+}
+/* Стили на меньшем расширении */
+@media screen and (max-width: 1184px) {
+  .cover__background {
+    width: 100vw;
+    /* Вычисление высоты по: ширина/высота cover */
+    height: calc(100vw / (1184 / 740));
+  }
+}

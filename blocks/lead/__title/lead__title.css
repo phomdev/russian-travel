@@ -1,5 +1,4 @@
 .lead__title {
-  font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -9,7 +8,7 @@
   padding: 0;
   margin: 0 0 32px 0;
 }
-/* Отступы страницы на меньшем расширении (mobile) */
+/* Свойства на меньшем расширении (mobile) */
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: 40px;
