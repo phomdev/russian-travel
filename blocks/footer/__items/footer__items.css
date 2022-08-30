@@ -1,19 +1,14 @@
 .footer__items {
   display: flex;
-  gap: 18px;
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  gap: 18px;
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 692px) {
+/* Стили для иного расширениия (Mobile) */
+@media screen and (max-width: 767px) {
   .footer__items {
     flex-direction: column;
-    max-width: 100%;
     gap: 32px;
-  }
-
-  .footer__items:last-child {
-    margin: 0 0 48px 0;
   }
 }

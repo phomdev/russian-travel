@@ -1,0 +1,17 @@
+.cover__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  aspect-ratio: 16/10;
+  color: #FFF;
+  background-color: rgba(42, 44, 47, .3);
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.cover__wrapper:hover {
+  background-color: rgba(42, 44, 47, .8);
+}

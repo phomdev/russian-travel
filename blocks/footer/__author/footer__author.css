@@ -5,10 +5,9 @@
   line-height: 16px;
   text-align: right;
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 692px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 767px) {
   .footer__author {
     line-height: 14px;
-    text-align: initial;
   }
 }

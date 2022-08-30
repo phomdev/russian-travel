@@ -1,32 +1,40 @@
 .photo-grid {
   display: grid;
   justify-content: center;
-  /* По ширине страницы и через auto-fit заполняем грид */
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  /* 100% ширины блока content + по 100px отступов с каждой стороны по макету */
-  width: calc(100% + (100px + 100px));
+  box-sizing: border-box;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto 92px auto;
+  padding: 0;
   gap: 16px;
 }
-/* Размер грида на меньшем расширении */
-@media screen and (max-width: 1279px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 1250px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
+    /* Переходим на три колонки */
+    grid-template-columns: repeat(3, 300px);
     width: 100%;
     gap: 14px;
   }
 }
-/* Размер грида на меньшем расширении */
-@media screen and (max-width: 1023px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 950px) {
   .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
+    /* Переходим на две колонки */
+    grid-template-columns: repeat(2, 352px);
+    margin: 0 auto 88px auto;
+    width: calc(100% - 48px);
     gap: 16px;
   }
 }
-/* Размер лого на меньшем расширении (mobile) */
+/* Стили для иного расширениия (Mobile) */
 @media screen and (max-width: 767px) {
   .photo-grid {
+    /* Мобильнная одиночная колонка с вычислением отступов по ширине */
     grid-template-columns: 100%;
-    max-width: 100%;
-    row-gap: 12px;
+    width: calc(100% - 32px);
+    margin: 0 auto 64px auto;
+    gap: 12px;
   }
 }

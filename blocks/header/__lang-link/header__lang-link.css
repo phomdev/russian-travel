@@ -3,9 +3,15 @@
   line-height: 28px;
   color: #FFF;
   text-decoration: none;
+  text-align: right;
+  transition: 0.4s ease-in-out;
 }
-/* Отступы страницы на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
+/* Затемнение при наведении на ссылку */
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+/* Среднее между 768 и 320 (mobile) */
+@media screen and (max-width: calc(768px - ((768px - 320px) / 2))) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

@@ -1,19 +1,26 @@
 .cover__title {
-  position: relative;
   max-width: 560px;
-  text-align: center;
+  margin: 0 auto 32px auto;
   padding: 0;
-  margin: 0 0 32px 0;
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  font-weight: bold;
+  text-align: center;
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 760px) {
+  .cover__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 auto 24px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .cover__title {
     max-width: 288px;
-    margin: 0 0 16px 0;
     font-size: 32px;
     line-height: 35px;
+    margin: 0 auto 16px auto;
   }
 }

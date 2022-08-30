@@ -1,9 +1,9 @@
 .header__logo {
-  width: 176px;
+  max-width: 176px;
 }
-/* Размер лого на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
+/* Среднее между 768 и 320 (mobile) */
+@media screen and (max-width: calc(768px - ((768px - 320px) / 2))) {
   .header__logo {
-    width: 142px;
+    max-width: 142px;
   }
 }

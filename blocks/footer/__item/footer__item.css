@@ -1,16 +1,18 @@
 .footer__item {
-  color: #FFF;
   text-decoration: none;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 18px;
+  transition: 0.4s ease-in-out;
 }
-
+/* Затемнение при наведении на ссылку */
 .footer__item:hover {
-  opacity: .6;
-  transition: opacity .4s ease-in-out;
+  opacity: 0.8;
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 692px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 767px) {
   .footer__item {
     font-size: 24px;
     line-height: 24px;

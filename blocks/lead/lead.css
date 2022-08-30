@@ -1,26 +1,24 @@
 .lead {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 100%;
-  margin: 56px 0 0 0;
+  max-width: 984px;
+  margin: 0 auto 92px auto;
   padding: 0;
 }
-/* Отступы страницы на меньшем расширении  */
-@media screen and (max-width: 1279px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 1250px) {
   .lead {
-    margin: 48px 0 0 0;
+    max-width: 928px;
   }
 }
-/* Отступы страницы на меньшем расширении  */
-@media screen and (max-width: 1023px) {
+/* Стили для иного расширениия */
+@media screen and (max-width: 950px) {
   .lead {
-    margin: 48px 0 0 0;
+    max-width: 100%;
+    margin: 0 auto 88px auto;
   }
 }
-/* Отступы страницы на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
+/* Стили для иного расширениия (Mobile) */
+@media screen and (max-width: 375px) {
   .lead {
-    margin: 48px 0 0 0;
+    margin: 0 auto 64px auto;
   }
 }

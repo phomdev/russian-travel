@@ -1,29 +1,6 @@
+/* Общее под страницу контента */
 .page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 28px 48px 24px 48px;
-  color: #FFF;
-  background-color: #2A2C2F;
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-/* Отступы страницы на меньшем расширении  */
-@media screen and (max-width: 1023px) {
-  .page {
-    padding: 28px 24px 24px 24px;
-  }
-}
-/* Отступы страницы на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
-  .page {
-    padding: 16px 16px 24px 16px;
-  }
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }

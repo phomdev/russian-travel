@@ -1,6 +1,7 @@
 /* Основные настройки */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 /* Стили шапки */
 @import url(../blocks/header/header.css);
@@ -8,10 +9,9 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
-/* Стили контента */
-@import url(../blocks/content/content.css);
 /* Стили секции lead */
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__textual/lead__textual.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__images/lead__images.css);
@@ -29,9 +29,9 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__article/places__article.css);
 @import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__links/places__links.css);
-@import url(../blocks/places/__links-name/places__links-name.css);
-@import url(../blocks/places/__links-link/places__links-link.css);
+@import url(../blocks/places/__site/places__site.css);
+@import url(../blocks/places/__site-name/places__site-name.css);
+@import url(../blocks/places/__site-link/places_site-link.css);
 @import url(../blocks/places/__images/places__images.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
@@ -39,8 +39,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__description/cover__description.css);
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__item/cover__item.css);
+@import url(../blocks/cover/__wrapper/cover__wrapper.css);
 /* Стили блока footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__items/footer__items.css);

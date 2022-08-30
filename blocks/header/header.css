@@ -2,8 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1184px;
-  width: 100%;
+  margin: 28px 48px 56px 48px;
   padding: 0;
-  margin: 0;
+}
+/* Среднее между 1280 и 1024 */
+@media screen and (max-width: calc(1280px - ((1280px - 1024px) / 2))) {
+  .header {
+    margin: 28px 48px 48px 48px;
+  }
+}
+/* Среднее между 1024 и 768 (Tablet) */
+@media screen and (max-width: calc(1024px - ((1024px - 768px) / 2))) {
+  .header {
+    margin: 28px 24px 48px 24px;
+  }
+}
+/* Среднее между 768 и 320 (mobile) */
+@media screen and (max-width: calc(768px - ((768px - 320px) / 2))) {
+  .header {
+    margin: 16px 16px 48px 16px;
+  }
 }

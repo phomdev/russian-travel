@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Подключение стилей -->
   <link href="./pages/index.css" rel="stylesheet">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body">
   <div class="page">
     <!-- Шапка -->
     <header class="header">
@@ -17,11 +17,13 @@
         <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
-    <main class="content">
+    <main>
       <!-- Начало секции lead -->
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <div class="lead__textual">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        </div>
         <img src="images/lead-polka.jpg" class="lead__images" alt="Изображение с маршрутом от Пскова до Улан-Удэ">
         <p class="lead__label">ваша полка — верхняя</p>
       </section>
@@ -60,9 +62,9 @@
       <section class="places">
         <article class="places__article">
           <h2 class="places__title">Куршская коса</h2>
-          <div class="places__links">
-            <p class="places__links-name">URL</p>
-            <a href="http://park-kosa.ru" class="places__links-link" target="_blank">park-kosa.ru</a>
+          <div class="places__site">
+            <p class="places__site-name">URL</p>
+            <a href="http://park-kosa.ru" class="places__site-link" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/places/place-1.jpg" class="places__images" alt="Куршская коса">
           <div class="places__description">
@@ -76,9 +78,9 @@
         </article>
         <article class="places__article">
           <h2 class="places__title">Кольский</h2>
-          <div class="places__links">
-            <p class="places__links-name">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__links-link" target="_blank">National Geographic</a>
+          <div class="places__site">
+            <p class="places__site-name">URL</p>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__site-link" target="_blank">National Geographic</a>
           </div>
           <img src="./images/places/place-2.jpg" class="places__images" alt="Кольский полуостров">
           <div class="places__description">
@@ -92,9 +94,9 @@
         </article>
         <article class="places__article">
           <h2 class="places__title">Алтай</h2>
-          <div class="places__links">
-            <p class="places__links-name">URL</p>
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__links-link" target="_blank">Facebook</a>
+          <div class="places__site">
+            <p class="places__site-name">URL</p>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__site-link" target="_blank">Facebook</a>
           </div>
           <img src="./images/places/place-3.jpg" class="places__images" alt="Алтай">
           <div class="places__description">
@@ -107,9 +109,9 @@
         </article>
         <article class="places__article">
           <h2 class="places__title">Зимний Байкал</h2>
-          <div class="places__links">
-            <p class="places__links-name">URL</p>
-            <a href="https://vk.com/baikalmile" class="places__links-link" target="_blank">https://vk.com/baikalmile</a>
+          <div class="places__site">
+            <p class="places__site-name">URL</p>
+            <a href="https://vk.com/baikalmile" class="places__site-link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/places/place-4.jpg" class="places__images" alt="Зимний Байкал">
           <div class="places__description">
@@ -121,9 +123,9 @@
         </article>
         <article class="places__article">
           <h2 class="places__title">Карелия</h2>
-          <div class="places__links">
-            <p class="places__links-name">URL</p>
-            <a href="http://vodlozero.ru" class="places__links-link" target="_blank">http://vodlozero.ru/</a>
+          <div class="places__site">
+            <p class="places__site-name">URL</p>
+            <a href="http://vodlozero.ru" class="places__site-link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/places/place-5.jpg" class="places__images" alt="Карелия">
           <div class="places__description">
@@ -135,12 +137,10 @@
       </section>
       <!-- Начало секции cover -->
       <section class="cover">
-        <div class="cover__background">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__item" target="_blank">
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__wrapper" target="_blank">
               <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
               <p class="cover__description">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </a>
-        </div>
       </section>
     </main>
     <!-- Начало блока footer -->

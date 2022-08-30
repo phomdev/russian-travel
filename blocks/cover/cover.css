@@ -1,21 +1,20 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0 0 92px 0;
+  margin: 0 auto 92px auto;
+  max-width: 1184px;
   width: 100%;
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-/* Стили на меньшем расширении */
-@media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 850px) {
   .cover {
-    margin: 0 0 88px 0;
+    margin: 0 auto 88px auto;
   }
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 748px) {
+
+@media screen and (max-width: 767px) {
   .cover {
-    margin: 0 0 64px 0;
+    margin: 0 auto 64px auto;
   }
 }

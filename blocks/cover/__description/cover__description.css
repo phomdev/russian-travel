@@ -1,14 +1,20 @@
 .cover__description {
-  position: relative;
   max-width: 360px;
-  text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
 }
-/* Стили на меньшем расширении (mobile) */
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 760px) {
+  .cover__description {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .cover__description {
     max-width: 288px;
     font-size: 14px;

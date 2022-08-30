@@ -1,26 +1,14 @@
- .places__paragraph {
-   padding: 0;
-   margin: 0 0 26px 0;
- }
-
- .places__paragraph:last-child {
-   margin: 0;
- }
- /* Отступы страницы на меньшем расширении  */
- @media screen and (max-width: 1279px){
-   .places__paragraph {
-     margin: 0 0 27px 0;
-   }
- }
- /* Отступы страницы на меньшем расширении  */
- @media screen and (max-width: 1023px){
-   .places__paragraph {
-     margin: 0 0 25px 0;
-   }
- }
- /* Отступы страницы на меньшем расширении  (mobile) */
- @media screen and (max-width: 767px){
-   .places__paragraph {
-     margin: 0 0 25px 0;
-   }
- }
+.places__paragraph {
+  margin: 0 0 26px 0;
+  padding: 0;
+}
+/* Убираем отступ у последнего элемента */
+.places__paragraph:last-child {
+  margin: 0;
+}
+/* Стили для иного расширениия */
+@media screen and (max-width: 1023px){
+  .places__paragraph {
+    margin: 0 0 25px 0;
+  }
+}
