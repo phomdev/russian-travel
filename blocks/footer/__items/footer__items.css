@@ -6,7 +6,7 @@
   gap: 18px;
 }
 /* Стили для иного расширениия (Mobile) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 760px) {
   .footer__items {
     flex-direction: column;
     gap: 32px;

@@ -12,7 +12,7 @@
   opacity: 0.8;
 }
 /* Стили для иного расширениия */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 760px) {
   .footer__item {
     font-size: 24px;
     line-height: 24px;

@@ -1,6 +1,7 @@
 .body {
   background-color: #2A2C2F;
   color: #FFF;
+  /* Подключение основного шрифта и начертания */
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;

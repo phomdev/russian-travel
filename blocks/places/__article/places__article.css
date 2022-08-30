@@ -19,6 +19,7 @@
 /* Построение отступов сетки на ином расширении */
 @media screen and (max-width: 1023px) {
   .places__article {
+    margin: 0 0 73px 0;
     gap: 48px 28px;
   }
 }

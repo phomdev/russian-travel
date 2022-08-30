@@ -11,6 +11,7 @@
  /* Стили для иного расширениия */
  @media screen and (max-width: 950px) {
    .places {
+     margin: 0 auto 90px auto;
      max-width: 720px;
    }
  }
