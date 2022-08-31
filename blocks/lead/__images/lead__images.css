@@ -4,9 +4,3 @@
   max-width: 984px;
   width: 100%;
 }
-/* Среднее между 1024 и 768 (Tablet) */
-@media screen and (max-width: calc(1024px - ((1024px - 768px) / 2))) {
-  .lead__images {
-    width: 100%;
-  }
-}
