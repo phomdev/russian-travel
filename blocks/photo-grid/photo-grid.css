@@ -14,7 +14,6 @@
   .photo-grid {
     /* Переходим на три колонки */
     grid-template-columns: repeat(3, 300px);
-    width: 100%;
     gap: 14px;
   }
 }

@@ -1,4 +1,4 @@
-.places__site-link {
+.place__site-link {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -9,6 +9,6 @@
   transition: 0.4s ease-in-out;
 }
 /* Затемнение при наведении на ссылку */
-.places__site-link:hover {
+.place__site-link:hover {
   opacity: 0.8;
 }

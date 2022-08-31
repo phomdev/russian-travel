@@ -1,8 +1,9 @@
-.places__site-name {
+.place__site-name {
   margin: 0 0 12px 0;
   padding: 0;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #AAA;
 }

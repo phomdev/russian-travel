@@ -1,4 +1,4 @@
-.places__title {
+.place__title {
   margin: 0;
   padding: 0;
   font-weight: 900;
@@ -7,20 +7,20 @@
 }
 /* Стили для иного расширениия */
 @media screen and (max-width: 950px) {
-  .places__title {
+  .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 /* Стили для иного расширениия */
 @media screen and (max-width: 767px) {
-  .places__title {
+  .place__title {
     margin: 0 16px 0 16px;
   }
 }
 /* Стили для иного расширениия */
 @media screen and (max-width: 375px) {
-  .places__title {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
   }

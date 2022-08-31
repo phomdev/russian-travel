@@ -1,4 +1,4 @@
-.places__description {
+.place__description {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -6,13 +6,13 @@
 }
 /* Стили для иного расширениия */
 @media screen and (max-width: 950px) {
-  .places__description {
+  .place__description {
     font-size: 16px;
   }
 }
 /* Стили для иного расширениия (Mobile) */
 @media screen and (max-width: 767px) {
-  .places__description {
+  .place__description {
     margin: 0 16px 0 16px;
   }
 }

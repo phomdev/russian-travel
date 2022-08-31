@@ -1,0 +1,4 @@
+.lead__figure {
+  /* Удаляем отступ у тега figure */
+  margin: 0 auto;
+}
